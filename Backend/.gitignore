@@ -1,0 +1,27 @@
+# Node
+node_modules/
+Frontend/node_modules/
+Backend/node_modules/
+
+# Build
+dist/
+build/
+Frontend/dist/
+Frontend/build/
+Backend/dist/
+Backend/build/
+
+# Env
+.env
+.env.local
+Frontend/.env
+Backend/.env
+
+# Logs
+*.log
+
+# Sistema/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

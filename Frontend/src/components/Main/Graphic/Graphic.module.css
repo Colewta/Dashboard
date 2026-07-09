@@ -1,0 +1,27 @@
+.graphicDiv {
+    background-color: white;
+    border-radius: 1rem;
+    margin-top: 3rem;
+}
+
+.graphicText {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 1.5rem;
+    height: 4.3rem;
+}
+
+.graphicH1 {
+    font-size: 1.3rem;
+}
+
+.graphicP {
+    color: var(--muted-foreground);
+    font-weight: var(--font-weight-medium);
+    margin: .5rem 0 2rem;
+}
+
+.graphicDiv {
+    padding: 1rem 3rem;
+}

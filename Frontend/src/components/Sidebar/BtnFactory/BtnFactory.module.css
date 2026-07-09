@@ -1,0 +1,49 @@
+.btnSidebar {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+
+    width: 100%;
+    padding: 0.9rem 1rem;
+
+    border: none;
+    border-radius: 14px;
+
+    background: transparent;
+    color: #4b5563;
+
+    font-size: .1rem;
+    font-weight: var(--font-weight-medium);
+
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+.btnSidebar svg {
+    width: 20px;
+    height: 20px;
+    stroke-width: 2;
+}
+
+.btnSidebar:hover {
+    background: #f3f4f6;
+    color: #111827;
+}
+
+.active:hover {
+    background: #b7fbe6;
+}
+
+.active {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.active svg {
+    color: #059669;
+}
+
+.btnSidebar:active {
+    transform: scale(0.98);
+}

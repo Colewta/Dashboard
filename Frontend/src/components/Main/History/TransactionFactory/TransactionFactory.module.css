@@ -1,0 +1,28 @@
+.transaction {
+    margin-top: .7rem;
+    display: grid;
+    grid-area: "p1 p2 p3 p4 p5";
+    grid-template-columns: 1fr 2fr 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+}
+
+#p1 {
+    grid-area: p1;
+}
+
+#p2 {
+    grid-area: p2;
+}
+
+#p3 {
+    grid-area: p3;
+}
+
+#p4 {
+    grid-area: p4;
+}
+
+#p5 {
+    grid-area: p5;
+}

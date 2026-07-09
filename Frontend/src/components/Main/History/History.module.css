@@ -1,0 +1,58 @@
+.history {
+    background: white;
+    border-radius: 1rem;
+    font-family: var(--inter);
+    margin-top: 3rem;
+    padding: 1rem 3rem;
+    width: 100%;
+}
+
+.title {
+    font-size: 1.3rem;
+    margin: 1.5rem 0 .5rem;
+}
+
+.subtitle {
+    color: var(--muted-foreground);
+    font-weight: var(--font-weight-medium);
+    letter-spacing: .3px;
+    margin-bottom: 2rem;
+}
+
+.headerP {
+    color: var(--muted-foreground);
+    font-size: small;
+    font-weight: var(--font-weight-medium);
+    text-transform: uppercase;
+}
+
+.transactionHeader {
+    border-bottom: 1px solid darkgray;
+    display: grid;
+    grid-area: "p1 p2 p3 p4 p5";
+    grid-template-columns: 1fr 2fr 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    height: 3vh;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+#p1 {
+    grid-area: p1;
+}
+
+#p2 {
+    grid-area: p2;
+}
+
+#p3 {
+    grid-area: p3;
+}
+
+#p4 {
+    grid-area: p4;
+}
+
+#p5 {
+    grid-area: p5;
+}
