@@ -1,0 +1,35 @@
+.cardsDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45vh;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 4.3rem;
+}
+
+.title {
+    font-family: var(--inter);
+    font-size: 2rem;
+}
+
+.p {
+    color: var(--muted-foreground);
+    font-family: var(--inter);
+    font-size: 1.1rem;
+    font-weight: var(--font-weight-medium);
+    margin-top: .7rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    padding: 1rem 3rem;
+}

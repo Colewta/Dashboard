@@ -1,0 +1,81 @@
+.cardDiv {
+    background-color: var(--background);
+    border: .3px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: 0 0 .7rem var(--border);
+    display: flex;
+    flex-direction: column;
+    font-family: var(--inter);
+    height: 30vh;
+    justify-content: space-between;
+    padding: 1.5rem;
+    width: 23%;
+}
+
+.title {
+    color: var(--muted-foreground);
+    font-size: medium;
+    font-weight: var(--font-weight-medium);
+}
+
+.infoText {
+    display: flex;
+    justify-content: space-between;
+}
+
+.valueDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 6rem;
+}
+
+.money {
+    margin-top: 1rem;
+}
+
+.money h2 {
+    font-size: 1.8rem;
+}
+
+.icon {
+    border-radius: .8rem;
+    margin-top: 1rem;
+    padding: .5rem .7rem;
+}
+
+.icon0 {
+    background-color: var(--blue);
+}
+
+.icon1 {
+    background-color: var(--green);
+}
+
+.icon2 {
+    background-color: var(--red);
+}
+
+.icon3 {
+    background-color: var(--green);
+}
+
+.greenP {
+    color: var(--green);
+}
+
+.redP {
+    color: var(--red);
+}
+
+.perc {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 78%;
+}
+
+.percText {
+    font-size: medium;
+    font-weight: var(--font-weight-medium);
+}

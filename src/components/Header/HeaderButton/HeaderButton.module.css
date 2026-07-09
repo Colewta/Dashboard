@@ -1,0 +1,15 @@
+.btnTransacao {
+    background-color: var(--green);
+    border: none;
+    border-radius: .7rem;
+    box-shadow: -3px 3px 3px #2e7d32;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: var(--inter);
+    font-size: large;
+    height: 3.2rem;
+    margin-right: 2rem;
+    padding: 0 2rem;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    width: 18%;
+}

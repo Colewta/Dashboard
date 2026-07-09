@@ -1,0 +1,22 @@
+.divTitle {
+    align-items: center;
+    border-right: 1px solid darkgray;
+    color: rgb(44, 44, 44);
+    display: flex;
+    font-family: Inter, sans-serif;
+    font-size: small;
+    height: 100%;
+    padding-left: .3rem;
+    width: 19.2%;
+}
+
+.wallet {
+    background-color: var(--green);
+    border-radius: 1rem;
+    margin-right: 1rem;
+    padding: .6rem;
+}
+
+.title {
+    font-size: 2rem;
+}
